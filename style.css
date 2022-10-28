@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+nav a {
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    height: 80vh;
+}
+
+.s1 {
+    background-color: cadetblue;
+}
+
+.s2 {
+    background-color: royalblue;
+}
+
+.s3 {
+    background-color: darkgoldenrod;
+}
+
+.s4 {
+    background-color: slategray;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
